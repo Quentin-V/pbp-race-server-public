@@ -1,0 +1,17 @@
+html
+    head
+        title= race.name
+    body
+        div
+            each part in infos
+                table(border="1px solid black")
+                    tr
+                        td
+                            p=part.name
+                    tr
+                        td
+                            p=`IG Time : ${part.igt}`
+                    tr
+                        td
+                            progress(value=part.progress max="100")
+                br

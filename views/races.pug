@@ -1,0 +1,13 @@
+html
+    head
+        title Races
+    body
+        table
+            each race in races
+                tr
+                    th= race.name
+                    each participant in race.participants
+                        tr
+                            td= participant.name
+            else
+                h2 There is no race for the moment

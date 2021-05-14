@@ -1,0 +1,27 @@
+{
+  "name": "pbp-race-server",
+  "version": "1.0.0",
+  "description": "PBP Race Web Server",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Quentin-V/pbp-race-server.git"
+  },
+  "author": "Quinta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Quentin-V/pbp-race-server/issues"
+  },
+  "homepage": "https://github.com/Quentin-V/pbp-race-server#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "pug": "^3.0.2",
+    "pusher": "^5.0.0",
+    "pusher-js": "^7.0.3",
+    "uuid": "^8.3.2"
+  }
+}
